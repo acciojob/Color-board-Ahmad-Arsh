@@ -2,7 +2,7 @@
             display: flex;
             flex-wrap: wrap;
             width: 400px;
-	  background:white
+	  background-color:rgb(29, 29, 29);
         }
 
         .square {
