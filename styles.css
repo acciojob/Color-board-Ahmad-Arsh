@@ -2,14 +2,14 @@
             display: flex;
             flex-wrap: wrap;
             width: 400px;
-	  background-color:rgb(29, 29, 29);
+	  background-color:rgba(29, 29, 29);
         }
 
         .square {
             width: 20px;
             height: 20px;
             border: 1px solid black;
-            transition: background-color 1s;
+            transition: background-color rgb(29,29,29);
         }
 
         .square:hover {
