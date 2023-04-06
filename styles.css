@@ -1,17 +1,13 @@
-  .container {
+ .container {
             display: flex;
             flex-wrap: wrap;
-            width: 400px;
-	  background-color:rgb(29, 29, 29);
+            width: 800px;
+	 background:rgb(29,29,29)
         }
 
         .square {
             width: 20px;
             height: 20px;
             border: 1px solid black;
-            transition: background-color rgb(29,29,29);
-        }
-
-        .square:hover {
-            background-color: lightblue;
+            transition: background-color 1s;
         }
